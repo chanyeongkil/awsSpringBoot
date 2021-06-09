@@ -33,7 +33,6 @@ public class Posts extends BaseTimeEntity { // 실제 DB와 매칭 될 클래스
 
     @Column(columnDefinition = "TEXT", nullable = false)
     private String content;
-
     private String author;
 
     @Builder // Lombok
